@@ -1,23 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import GIT from './assets/Octicons-mark-github.svg.png'
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>My Portfolio</h1>
+      <h2>Aleksandre Jelia</h2>
+      <a href="https://github.com/jeliaaa/todo_list.git">
+        <i>
+          <img src={GIT} alt='...' style={{width:'200px'}} />
+        </i>
+      </a>
+      <a href="https://jeliaaa.github.io/todo_list/">
+        <p>See Deployed Page</p>
+      </a>
+      <img src="https://picsum.photos/300"/>
     </div>
   );
 }
